@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .itemsLayout {
+    @apply text-stone-50 ml-60 pt-3 tracking-widest text-lg;
+  }
+}
